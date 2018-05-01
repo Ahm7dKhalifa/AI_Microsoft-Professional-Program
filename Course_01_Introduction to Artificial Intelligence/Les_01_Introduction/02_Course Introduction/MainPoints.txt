@@ -1,0 +1,12 @@
+###########################
+1. what is AI ?
+###########################
+- it is the science which make computer behavior intelligence like 
+  human 
+- think , see , speech , ...
+- AI is not used only in robots but it refer to any smart software
+
+##############################################################
+2. DIFFERENCES BETWEEN REGULAR PROGRAMMING AND AI PROGRAMMING
+##############################################################
+see Q_A for MainPoints/Q_02
