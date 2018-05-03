@@ -1,0 +1,5 @@
+SELECT PatientID,
+       Physician,
+       [Scored Labels] AS DiabetesPrediction,
+       [Scored Probabilities] AS Probability
+FROM t1;
