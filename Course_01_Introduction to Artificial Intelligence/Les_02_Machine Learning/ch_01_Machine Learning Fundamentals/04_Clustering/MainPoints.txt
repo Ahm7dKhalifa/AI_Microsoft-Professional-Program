@@ -1,0 +1,91 @@
+############################################
+1.what is clusters
+#############################################
+Well, we've seen some examples of supervised learning,
+specifically regression and classification.
+But what about unsupervised learning?
+Now unsupervised learning techniques,
+you don't have a known label with which to train the model.
+But you can still use an algorithm that finds
+similarities in data observations in order to group
+them into clusters.
+
+
+#############################################
+2.ex for clusters
+##############################################
+example our health clinic has a website that contains links to
+articles and medical and healthy lifestyle publications.
+Now I might want to automatically group similar
+articles together.
+Or maybe I wanna segment our study participants, and
+we can categorize them based on similar characteristics.
+
+
+####################################################################
+3.1 There are a number of ways we can create a clustering model.
+##################################################################### 
+1- k-means clustering
+2- principal component analysis, or PCA
+
+################################################################
+3.2 There are a number of ways we can create a clustering model.
+And we're gonna look at one of the most popular clustering
+techniques, something called k-means clustering.
+##############################################################
+
+
+
+################################################################
+4. WHAT IS k-means clustering? AND HOW IT WORK ?
+#################################################################
+-then we can plot them as coordinates.
+Now here,
+we're plotting two features on a two dimensional grid.
+But in reality,
+multiple features would be plotted in n-dimensional space.
+We then decide how many clusters we want to create,
+which we call k.
+-And we plot k points at random locations
+that represent the center points of our clusters.
+In this case, k is three, so we're creating three clusters.
+-Next, we identify which of the three centroids each point is
+closest to, and assign the points to clusters accordingly.
+-Then we move each centroid to the true center of the points
+and its cluster.
+-And reallocate the points in the cluster based on their
+nearest centroid.
+-And we just repeat that process until we have nicely separated
+clusters.
+
+####################################################
+So what do I mean by nicely separated?
+#####################################################
+FIRST WAY : SLIDE 1,2
+-Well, we want a set of clusters that separate data by
+the greatest extent possible.
+To measure this, we can compare 
+1- the average distance between the cluster centers.
+2- the average distance between the points in the cluster and their centers.
+- Clusters that maximize this ratio
+have the greatest separation.
+
+SECOND WAY : SLIDE 3,4
+We can also use 
+1-the ratio of the average distance between clusters, and
+2-the maximum distance between the points and the centroid of the cluster.
+
+
+################################################################
+4. WHAT IS principal component analysis, or PCA? AND HOW IT WORK ?
+#################################################################
+
+-Now another way we could evaluate the results of
+a clustering algorithm
+
+
+
+
+
+
+
