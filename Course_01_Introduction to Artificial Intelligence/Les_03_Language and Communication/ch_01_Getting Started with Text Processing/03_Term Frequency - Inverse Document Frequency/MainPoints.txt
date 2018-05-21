@@ -1,0 +1,16 @@
+######################################################
+1.why Term Frequency
+######################################################
+Simple word frequency can be a reasonably effective way
+to look at a single document.
+But when you have a large corpus of documents, common words can
+appear frequently in multiple documents.
+And a simple count of how many times a word occurs in total
+might not reflect its importance within an individual document.
+So to deal with that, we use a more sophisticated measure of
+word importance that combines two metrics named term frequency
+and inverse document frequency.
+######################################################
+2.EXAMPLE
+######################################################
+-Q/A

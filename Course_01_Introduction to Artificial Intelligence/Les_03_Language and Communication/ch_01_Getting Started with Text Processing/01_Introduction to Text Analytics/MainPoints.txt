@@ -1,0 +1,12 @@
+#############################################
+1.what is Text Analytics or Processing
+#############################################
+- artificial intelligence needs to include the ability to
+communicate naturally with digital entities.
+- Software needs to be able to understand text,
+  extracting semantic meaning, and
+  even sentiment from the language that we use as humans.
+- And we also need to be able to speak to AI agents and have them
+  respond appropriately even engaging us in conversation.
+So in this lesson, we'll take a look at how we can process text
+and speech to enable AI for language and communication.

@@ -1,0 +1,16 @@
+##############################################
+1.what is stemming
+##############################################
+Stemming is a technique used to identify words with
+a common root and count them as the same.
+A common technique is to use something called the Porter
+algorithm, which defines a sequence of rules for
+breaking words down into a common stem based on the pattern
+of consonants, vowels, common letter combinations and
+word endings, and other syntactical elements.
+
+
+######################################################
+2.example
+#####################################################
+Q-A

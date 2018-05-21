@@ -1,0 +1,21 @@
+#########################################
+1.EXAMPLE TO HOW FREQANCY ANALYSIS WORK
+########################################
+Q-A
+
+#########################################
+2.WHAT IS MEAN BY STOP WORD
+########################################## 
+Now note that one of the most frequent words is a, and
+we've also got words like that, as, and
+other common words that aren't really very useful for
+extracting semantic meaning from the text.
+Now we call these stop words, and if we removed them,
+we get a cleaner picture of what the text is about.
+
+#######################################
+3.WHAT IS MEAN BY  normalized text
+########################################
+It doesn't have any numerals or any punctuation, and
+everything is lower case.
+-we remove any numerals or any punctuation from it as example
