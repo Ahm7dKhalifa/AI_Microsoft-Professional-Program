@@ -1,0 +1,19 @@
+############################################
+1.models use with speech
+##############################################
+Now to work with speech, we have to recognize that there are two
+models that need to work together.
+First of all, there's an acoustic model that match
+audio to sound units or phonemes, which define how
+specific word fragments are pronounced in a given language.
+Then there's a language model that provides
+a probability distribution across a sequence of words.
+
+
+###########################################
+2. Bing Speech API example to 
+   - convert audio to text
+   - convert text to audio
+###########################################
+-Q\A
+   

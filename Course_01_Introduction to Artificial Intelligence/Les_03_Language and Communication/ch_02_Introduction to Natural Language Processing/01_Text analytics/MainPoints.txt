@@ -1,0 +1,15 @@
+#################################################
+1.Natural language processing
+################################################
+Natural language processing enables AI systems to do much
+more than just use statistical analysis of word frequency.
+Using an LP, we can build applications that can extract
+key phrases to determine important points and topics.
+And we can improve the accuracy of sentiment analysis by looking
+beyond the presence of positive words in the text and
+examining the semantics of what's being said
+
+##############################################
+2.the text analytics API for azure example
+##############################################
+Q/A

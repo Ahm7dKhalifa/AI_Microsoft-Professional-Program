@@ -1,0 +1,8 @@
+########################################
+1. two cognitive services APIs for Translation
+#######################################
+There's one for text and one for speech.
+
+##########################################
+2.EXAMPLE WITH API SERVICE
+###########################################
