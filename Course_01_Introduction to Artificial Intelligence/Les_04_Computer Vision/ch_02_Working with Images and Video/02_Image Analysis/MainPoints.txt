@@ -1,0 +1,21 @@
+########################################
+1.what is image analysis
+#######################################
+-q/a
+Sometimes you might need a more general solution that can not only differentiate
+between specific classes of object but begin to make sense of what's in an
+image you might need to be able to identify everyday objects of various
+types and maybe describe more complex scenes now possibly even read text in
+images
+
+##########################################
+2. computer vision API in azure
+###########################################
+the computer vision API is a cognitive service that's been trained
+using millions of images and has built an optical character recognition
+
+#######################################
+3.EXAMPLE
+########################################
+Q/A
+

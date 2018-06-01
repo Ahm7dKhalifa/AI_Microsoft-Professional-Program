@@ -1,0 +1,19 @@
+###########################################
+1.HOW WE CAN APPLAY ML IN COMPUTER VISION
+ -IMAGE classification
+###########################################
+Well we've looked at various ways to process images and extract features from
+them and hopefully you've seen that to a computer images are just numeric arrays
+on which mathematical and statistical operations can be performed now that
+means that we can apply similar machine learning techniques to images just as we
+do to any other data so for example we can train a classification model by
+tagging images with a label like these images of cars and these images of
+rockets then we can use the classification model to predict the
+appropriate tags 
+
+###############################################
+2.- CUSTOM VISION API EXAMPLE
+  - or IMAGE classification api
+#############################################
+-FRAMEWORK FOR COMPUTER VISION
+Q-A
