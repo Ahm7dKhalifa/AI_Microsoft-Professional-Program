@@ -1,0 +1,65 @@
+==============================================
+1.what is Highlighting Data
+==============================================
+- data analysis tool to show and spot
+interesting values and apparent relationships in the data
+  ex : Highlight the ten top and bottem values
+- or comparative numeric values
+==============================================
+2.Highlighting Data techniques
+==============================================
+1- color intensity or heat map visualization
+2- using data bars.
+3-  highlight individual values that fall
+within some criteria
+-q/a
+==============================================
+3.heat map visualization
+==============================================
+ and it's usually used with continuous numerical data to
+compare values so that the higher the value, the higher the color intensity
+used to highlight it
+
+==============================================
+4.using data bars.
+==============================================
+In this case the days with higher levels of rainfall have longer bars than the
+days with less rain.
+
+
+==============================================
+5.
+==============================================
+
+
+==============================================
+6.
+==============================================
+
+
+
+==============================================
+7.
+==============================================
+
+
+==============================================
+8.
+==============================================
+
+
+==============================================
+9.
+==============================================
+
+
+==============================================
+10.
+==============================================
+
+
+
+
+
+
+
