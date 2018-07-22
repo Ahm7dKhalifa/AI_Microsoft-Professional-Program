@@ -1,0 +1,5 @@
+Date,Day,Temperature,Rainfall,Flyers,Price
+01/01/2017,Sunday,27,2.00,15,0.3
+02/01/2017,Monday,28.9,1.33,15,0.3
+03/01/2017,Tuesday,34.5,1.33,27,0.3
+04/01/2017,Wednesday,44.1,1.05,28,0.3

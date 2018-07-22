@@ -1,0 +1,16 @@
+%matplotlib inline
+from matplotlib import pyplot as plt
+
+# Print statistics for Temperature and Sales
+print(frame[['Temperature','Sales']].describe())
+
+# Print correlation for temperature vs Sales
+print('\nCorrelation:')
+print(frame['Temperature'].corr(frame['Sales']))
+
+# Plot Temperature vs Sales
+plt.xlabel('Temperature')
+plt.ylabel('Sales')
+plt.grid()
+plt.scatter(frame['Temperature'],frame['Sales'])
+plt.show()
