@@ -1,0 +1,78 @@
+==============================================
+1. working with a full population of data 
+   and working with a sample
+==============================================
+In most real-world scenarios, you
+won't have access to the full population. For example, you're unlikely to have
+rainfall measures for everyday ever; and even if you did, that's a lot of data to
+try and manage. Generally you work with samples of data that are representative
+of the data, and you use sample statistics such as the mean and standard
+deviation to approximate the parameters of the full data population
+
+-q/a
+
+==============================================
+2.what can we do to ensure our sample statistics are truly representative of
+the full population parameters
+==============================================
+1- Well up to now we've used fairly small sample
+sizes. In practice it's best to get as large a sample as you can. The larger the
+sample, the better it will approximate the distribution and parameters of the
+full population
+
+2- Another thing you can do is to take multiple random samples. Each
+sample has a sample mean, and you can record these to form what's called a
+sampling distribution. With enough samples, two things happen. One is that,
+thanks to something called the central limit theorem, the sampling distribution
+takes on a normal shape regardless of the shape of the population distribution;
+and the second thing is that the mean of the sampling distribution, in other words
+the mean of all the sample means, will be the same as the population mean.
+
+-q/a
+==============================================
+3.
+==============================================
+
+
+==============================================
+4.
+==============================================
+
+
+
+==============================================
+5.
+==============================================
+
+
+==============================================
+6.
+==============================================
+
+
+
+==============================================
+7.
+==============================================
+
+
+==============================================
+8.
+==============================================
+
+
+==============================================
+9.
+==============================================
+
+
+==============================================
+10.
+==============================================
+
+
+
+
+
+
+

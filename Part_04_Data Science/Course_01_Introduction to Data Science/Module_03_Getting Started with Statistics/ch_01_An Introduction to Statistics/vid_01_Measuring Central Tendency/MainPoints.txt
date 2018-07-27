@@ -1,0 +1,75 @@
+============================================
+0.- Statistics
+  - Descriptive Statistics
+=============================================
+- Descriptive Statistics :
+summarize date by extract some a meaningful informartion 
+that can decsripe the all data or samples of data. 
+ex : mean,median,mode,... 
+-q/a
+
+==============================================
+1.relation between Statistic and data scienc
+==============================================
+Statistical analysis is at the core of data science
+
+==============================================
+2. The starting point for learning how 
+   to use statistics to analyze data :
+==============================================
+understand the common descriptive statistics
+that we can use to understand
+the distribution of our data
+
+
+==============================================
+3.Measuring Central Tendency :
+==============================================
+- q/a
+- examine the distribution of data values for a set of
+sample observations by calculating the minimum, maximum, mean, median, and mode; and
+then we visualized those distributions using a histogram and a box and whisker
+plot
+
+==============================================
+4.
+==============================================
+
+
+
+==============================================
+5.
+==============================================
+
+
+==============================================
+6.
+==============================================
+
+
+
+==============================================
+7.
+==============================================
+
+
+==============================================
+8.
+==============================================
+
+
+==============================================
+9.
+==============================================
+
+
+==============================================
+10.
+==============================================
+
+
+
+
+
+
+
