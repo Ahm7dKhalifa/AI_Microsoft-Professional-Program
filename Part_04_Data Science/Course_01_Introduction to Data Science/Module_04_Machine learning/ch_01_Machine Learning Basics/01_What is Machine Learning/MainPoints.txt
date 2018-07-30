@@ -1,0 +1,70 @@
+###############################
+1.What Is Machine Learning?
+###############################
+Machine learning provides the foundation for
+artificial intelligence.
+So what is it?
+Well, as the name suggests, machine learning is a technique
+in which we train a software model using data.
+The model learns from the training cases and then we can
+use the trained model to make predictions for new data cases.
+####################################
+2.The key to understand ML
+##################################
+The key to this is to understand that fundamentally,
+computers are very good at one thing, performing calculations.
+To have a computer make intelligent predictions from
+the data, we just need a way to train it to perform the correct
+calculations.
+We start with a data set that contains historical records,
+often called cases or observations.
+And each observation includes numeric features
+that quantify a characteristic of the item we're working with.
+Let's call that X.
+In general, we also have some value that we're trying
+to predict, which we'll call Y.
+And we use our training cases to train a machine learning model
+so that it can calculate a value for Y from the features in X.
+So in very simplistic terms, we're creating a function that
+operates on a set of features, X, to produce predictions, Y.
+#########################################
+3. WHAT IS GENERAL TYPE OF ML MODELS ?
+########################################
+Now generally speaking, there are two broad kinds of machine
+learning, 
+1.supervised and 
+2.unsupervised.
+===========================================
+In supervised learning scenarios,
+we start with the observations that include known values for
+the variable we want to predict.
+And we call these labels.
+Now, because we started with data that includes the label
+we're trying to predict, we can train the model using only some
+of the data and withhold the rest of the data for
+evaluating model performance.
+We then use a machine learning algorithm to train a model
+that fits the features to the known label.
+And because we started with the known label value,
+we can validate the model by comparing the value predicted by
+the function, to the actual label value that we knew.
+Then, when we're happy that the model works,
+we can use it with new observations for
+which the label is unknown, and generate new predicted values.
+---------------
+IN ANOTHER WORDS
+1.train the models with cases which consist of [input x and output y ] to find the F(x) = Y
+2.test with new cases and compare the input with the expected output
+3.if the result of the test is correct .. good the model is work well and validated
+===================================================
+Unsupervised learning is different from supervised
+learning, in that this time we don't have known label values in
+the training data set.
+
+1.We train the model by finding similarities between the observations.
+  [FOR EX : DIFFERENT PHOTOS which every photo contain dog Then The output is DOG
+2.After the model is trained,
+each new observation is assigned to the cluster of observations
+with the most similar characteristics.
+
+

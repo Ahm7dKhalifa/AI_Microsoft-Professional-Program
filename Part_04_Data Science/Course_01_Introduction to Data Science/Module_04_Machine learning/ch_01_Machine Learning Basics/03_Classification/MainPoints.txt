@@ -1,0 +1,126 @@
+##################################################
+1.what is Classification
+####################################################
+Classification is a technique that we can use to predict which
+class, or category, something belongs to.
+
+###################################################################
+2.The simplest variant of this is binary classification 
+##################################################################
+
+
+##############################################
+3.binary classification 
+##############################################
+we predict whether an entity belongs to one of two classes.
+It's often used to determine if something is true or
+false about the entity.
+
+##############################################
+4.ex for binary classification 
+##############################################
+For example,
+suppose we take a number of patients in our health clinic,
+and we gather some personal details, and run some tests, and
+we can identify which patients are diabetic and which are not.
+We can learn a function that can be applied to these patient
+features and give the result 1 for
+patients that are diabetic, and 0 for patients that aren't.
+More generally, a binary classifier is a function that
+can be applied to features X to produce a Y value of 1 or 0.
+-Q/A
+
+###############################################
+5.HOW THE ALGORTHIM OF binary classification ACTUALLY WORK
+###############################################
+Now, the function won't actually calculate an absolute value
+of 1 or 0, it will calculate a value between 1 and 0,
+and we'll use a threshold value
+to decide whether the result should be counted as a 1 or a 0.
+When you use the model to predict values,
+the resulting value is classed as a 1 or
+a 0 depending on which side of the threshold line it falls.
+-Q/A
+
+
+################################################
+6.WHAT IS MEAN BY
+- TP
+- FP
+- TN
+- FN
+###################################################
+-Q/A IN Q_05
+
+
+
+#####################################
+7.confusion matrix
+##################################
+-Q/A
+
+
+####################################
+8.DISADVANATGES OF confusion matrix
+#####################################
+Now that might seem like a really good result, but
+perhaps surprisingly, accuracy actually isn't all that
+useful as a measure of a model's performance.
+Suppose that only 3% of the population is diabetic.
+I can create a model that simply always predicts zero and
+it would be 97% accurate, but it's completely useless for
+identifying potential diabetics.
+
+##################################
+9.precision
+###################################
+-Q/A
+
+
+###################################
+10.recall.
+##################################
+-Q/A
+
+####################################
+11.recall actually has another name, sometimes it's known as
+the True Positive Rate
+######################################
+
+
+#######################################
+12.WHAT IS FALSE POSITIVE RATE
+#######################################
+-Q/A
+
+
+########################################
+13.a receiver operator characteristic,
+a ROC chart.
+#########################################
+- Q/A
+- if we plotted this for every possible threshold rate,
+we would end up with a curved line that looks like this.
+Now this is known as a receiver operator characteristic,
+-Now the area under the curve, or AUC,
+as we call it, is an indication of how well the model predicts.
+Generally, you wanna see a large AUC with a curve staying as
+close as possible to the top left corner of the chart.
+A perfect classifier would go straight up the left and
+then along the top, giving an AUC of one.
+Now, you can always compare with a diagonal line, and
+that represents how well the model would perform if you
+simply made a 50-50 guess.
+It's an AUC of 0.5.
+So you're just simply random guessing 50% of the time true,
+50% false.
+In this case, our model has an AUC of 0.9.
+So, it's definitely outperforming guessing.
+
+
+
+
+
+
+
+
