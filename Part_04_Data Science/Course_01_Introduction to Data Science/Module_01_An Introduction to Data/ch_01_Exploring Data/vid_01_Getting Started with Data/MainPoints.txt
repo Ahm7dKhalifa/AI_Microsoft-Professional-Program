@@ -27,12 +27,19 @@
   - data mining
 ==============================================
 -q/a
-
+- in addition to the files in q/a
+  - data analysis :
+     focuse on extract information that based on 
+     statistic , math , data visualization
+  - data science 
+     focuse on extract high level of informations or insights
+     from data to use it to make decisions or 
+     predict the future for this data    
 
 ==============================================
-5.
+5.data science process or workflow
 ==============================================
-
+-q/a
 
 ==============================================
 6.
