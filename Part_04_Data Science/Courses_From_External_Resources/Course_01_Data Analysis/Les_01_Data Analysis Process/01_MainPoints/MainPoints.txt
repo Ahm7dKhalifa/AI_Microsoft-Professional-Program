@@ -1,0 +1,213 @@
+q/a mean -> q/a folder 
+for ex :
+if u in q2 then the answer in Q_02 Folder in Q/A folder
+--------------
+fnum mean -> Course Materials Folder / Intro To Data Analysis.zip
+for ex :
+after extract the files 
+f5 -> mean the answer in file number ow with name 5
+-----------------
+L -> mean the answers in files in materials lesson folder 
+
+==============================================
+1.who is a data analyst
+==============================================
+- is someone who
+uses data to answer questions
+
+-ex :
+ou'll tackle questions like 
+what makes students more likely to
+submit their projects,
+or what countries around the world have the highest and
+lowest employment rates, and how does
+the country you live in compare?
+
+
+==============================================
+2.what is data analysis process
+==============================================
+-q/a
+
+1-  questions
+questions you want to answer or
+a problem you want to solve.
+
+2- data wrangling
+this really has two parts,
+data acquisition and data cleaning
+2.1 First, you need to acquire the data
+that you need to answer your question or
+solve your problem.
+2.2 Then it's time to begin
+investigating the data and
+cleaning up any problems that you find.
+
+3-data exploration
+
+4- draw some conclusions about it or
+maybe make some predictions.
+
+5- communicate 
+ou'll usually need to share what you've
+built and how it works with your team.
+
+==============================================
+3.if this process
+actually follow a straight line.
+==============================================
+-q/a
+38
+00:02:02,770 --> 00:02:05,410
+Now, this process doesn't
+actually follow a straight line.
+
+39
+00:02:06,650 --> 00:02:10,639
+Especially the data wrangling phase and
+to the data exploration phase
+
+40
+00:02:10,639 --> 00:02:14,660
+are very intertwined because you can't
+really clean any problems with the data
+
+41
+00:02:14,660 --> 00:02:17,210
+before you take a look to
+see what problems there are.
+
+42
+00:02:17,210 --> 00:02:19,840
+And even when you think you're done
+wrangling and you're ready to just
+
+43
+00:02:19,840 --> 00:02:23,070
+explore, you'll keep finding more
+problems and have to go back.
+
+44
+00:02:24,290 --> 00:02:27,080
+Throughout the process, you may
+need to return to your question and
+
+45
+00:02:27,080 --> 00:02:29,550
+refine it as you become more
+familiar with the data set.
+
+46
+00:02:30,650 --> 00:02:35,040
+And sometimes data acquisition actually
+comes before you pose a question.
+
+47
+00:02:35,040 --> 00:02:38,760
+If a new, exciting data set is released,
+you might acquire the data first,
+
+48
+00:02:38,760 --> 00:02:40,230
+take a look and see what's there, and
+
+49
+00:02:40,230 --> 00:02:42,930
+then think of some questions
+you could answer with the data.
+
+50
+00:02:42,930 --> 00:02:45,380
+That's what we'll be
+doing in this lesson.
+
+51
+00:02:45,380 --> 00:02:48,900
+However, this should give you an idea of
+the high level steps that are involved
+
+52
+00:02:48,900 --> 00:02:50,300
+when you're doing data analysis
+
+
+==============================================
+4. data wrangling phase
+   - Data acquisition ways 
+   - what is csv 
+   - benfits of it 
+==============================================
+- q/a
+- f4
+- benfits of it :
+CSV's very easy to process in
+programming languages such as Python.
+
+==============================================
+5.- how to represent csv in python as list
+  - import data from csv file by unicodecsv library
+==============================================
+-q/a
+-f5
+-l
+==============================================
+6.fixing data 
+  - why or what is it
+  - who to do it by python
+==============================================
+-f6
+-l
+
+==============================================
+7.Investigating the Data
+  - what is mean by Investigating the Data
+  - how to do it in python
+==============================================
+-q/a
+-f10
+-l
+==============================================
+8.the problem in data
+==============================================
+-f11,12,13,....,17
+-l
+
+==============================================
+9.summary of problems in data or how to clean your data
+==============================================
+1- filter operations
+ex : - the raws with repeated values and
+       u may be need every values in certain column is uniqe
+     - the raws which has emapty values in important columns 
+     - or the raws which do not apply a certain condition
+2- sort operatins
+
+3- manipulation
+ ex : - u must or need to convert the values in a certain column to 
+        its log , or prouduct every value in a certain coulmn by number
+        or anthors math operations
+
+4- derived values
+ex : - u do not need to use birthday to analysis data
+       but u need to use the age in analysis process 
+       so u must extract this derived data in this process first 
+
+
+==============================================
+10.best library to data visualization and analysis
+==============================================
+1- numpy
+2- matplotlib
+3- panads
+4- seaborn
+
+==============================================
+11.Data Analysis and Related Terms
+==========================================
+-q/a
+
+
+
+
+
+
