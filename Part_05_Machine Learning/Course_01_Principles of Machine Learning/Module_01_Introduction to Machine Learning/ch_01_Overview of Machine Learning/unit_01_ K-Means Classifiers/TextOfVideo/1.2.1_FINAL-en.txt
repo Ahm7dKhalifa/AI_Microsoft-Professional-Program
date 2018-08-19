@@ -1,0 +1,182 @@
+>> In this video, I'm going to discuss
+some basics of Machine Learning in general,
+and we're also going to talk about
+the K- Nearest Neighbors Machine Learning algorithm.
+So, that's our first Machine Learning algorithm.
+So, let's talk about the basics of Machine Learning.
+So, what's our goal?
+Our goal is to train a model to
+produce useful response to the input.
+So, we have an input, we want a response.
+The response is typically a prediction
+of something that we want to know about those data.
+When we input something we
+get that response. That's our prediction.
+We can write in a very generic term as
+you've seen a formula like this where we say
+our Machine Learning algorithm which is a function F
+of X equals Y is our prediction.
+So X is our data cases
+that we have and Y is the prediction.
+If we know what those Y values
+are when we're training the model,
+we call those the labels,
+and if we'd have known labels where someone has gone
+through and marked the cases
+so we know what the right answer is,
+we call that Supervised Machine Learning because
+the learning is supervised by knowing the labels.
+In Supervise Machine Learning,
+the features which I've shown as X in my formula there,
+provide information to train the model.
+So those are one or more columns in say
+a data table that have
+that information and the labels
+are those correct answers as I've already said.
+Unsupervised Machine Learning, we only have features.
+We don't know the labels and
+so we have to use very different techniques,
+and we'll get to
+Unsupervised Learning later in the course.
+So, what's the process here?
+We'll talk about this other parts of the class as well,
+because it's important to keep in
+mind that Machine Learning isn't
+just a linear thing
+that you just follow a recipe and boom you're done.
+It's complicated.
+Things go wrong and it's more of
+a scientific process, an exploration process.
+So, the first thing is we have to
+acquire and ingest data.
+We have to explore those data.
+We have to understand the relationship between
+the features and the label or between different features.
+We'll get to that in another module of this class.
+We need to prepare the data so that they're not
+errors and other problems with the data.
+Another module in this class
+is going to address that of course,
+and that can provide cleaning the data,
+feature engineering and then splitting the data set.
+So we never want to train and evaluate or
+test the model on the same data.
+So, we're going to talk about methods later in
+the class to split the data.
+We need to then
+construct and evaluate a Machine Learning model,
+that's what we're leading up
+to with all this preparation,
+and maybe we're going to find out
+that evaluation doesn't show us the performance we
+want or are there some systematic bias or problem.
+Well, we may have to repeat
+many or all of the steps above,
+until we get where we want to go.
+So let's talk about our first Machine Learning algorithm
+in this class which is what
+we call the K-Nearest Neighbors Algorithm or KNN.
+It's a really simple method,
+it's been around for a very long time.
+In many cases, it's still very effective.
+It doesn't require any particular training.
+It's a little odd. It needs labels to know what
+the cases are but we don't train on those labels.
+It's just whatever the data are
+they determine the nearest neighbors.
+So, it's a little bit of an outlier in terms of
+other Machine Learning Algorithms
+that we'll deal with in this course.
+A new case. So, we have have
+some known cases, known label.
+We get a new case and we
+find out where it is in the feature space,
+and we look around and we
+find some near neighbors and we use
+the ones that are
+in the nearest proximity to our new case,
+to find out how to classify or predict that new case.
+We have to use a distance metric, right?
+So I'm going to tell you about proximity,
+where I need a distance metric.
+So, I need to measure distance from
+my new case to existing cases where I have marked labels.
+Most commonly, we use euclidean distance
+but other distances are used.
+We can also use weighted distance.
+We may care if not one case is close to another,
+we may want to weight that higher than
+one that's further away.
+K, the K in the K-Nearest Neighbors or KNN,
+defines the number of neighbors we're going to
+use to make that prediction.
+The basic algorithm then is really simple.
+Once we know how to compute
+the distance and weight or not weight the distance,
+we basically go for a majority vote,
+and that's the label that we are
+forecasting or predicting for
+the K-Nearest Neighbor's Algorithm.
+So, let's look at an example here.
+So, I have these data on my screen here,
+and you can see there's red triangles and blue dots.
+Let's try the K equals one case first, okay?
+I have see the question mark
+just appeared in the middle there,
+and I want to know how I'm going to
+classify that data case.
+So, I have my two features.
+You see the vertical and the horizontal axes.
+So, there's two features in this and I need to find
+the nearest neighbor and
+we'll just use euclidean distance in this case.
+So we draw a circle there,
+and we find that as the circle expands,
+here's the first case we hit is a red triangle.
+So, we classify this question mark now,
+we say, oh yeah that's a red triangle.
+But we could also say try K equals three.
+You can try different values of K and
+see what works best for your application.
+Now we get this bigger circle because we have to
+inscribe the first three data points we encounter,
+and it looks like in that case,
+the blue dots win.
+So, it's quite a different result we get here
+between K equals one and K equals three,
+and which is better,
+you'll have to evaluate and see
+and you'll get a chance to do that in the lab.
+But there's a problem with K- Nearest Neighbors,
+and this inpervades all Machine Learning
+but it's really evident here.
+It's an effective classifier when it works,
+but it suffers from something we call
+the curse of dimensionality.
+Let me just give you an example so you
+can wrap your heads around what this problem is.
+So in one dimension,
+say I just have one feature.
+So, one dimension, and I have 10 samples.
+Sort of pretty, maybe that's
+dense enough sampling of
+my known cases and I can
+get a pretty accurate classifier.
+But if I want that same density in
+two dimensions which is like the case
+I just showed you was two dimensional,
+I need 100 samples.
+If I have three dimensions,
+I need 1,000 samples,
+four dimensions I need 10,000 samples.
+So, if I had 10 features,
+I'd need tenth of a the tenth samples which is
+like 10 billion samples to
+get the density of my one dimensional case.
+This is what we call in Machine Learning the curse of
+dimensionality and it affects
+all Machine Learning as I said,
+but it's particularly a problem
+with algorithms like K- Nearest Neighbors.
+So, just keep that in mind
+when you're working with algorithms like that.
